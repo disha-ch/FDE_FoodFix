@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from "express";
 import { GoogleGenAI, Type } from "@google/genai";
 import { fileURLToPath } from "url";
